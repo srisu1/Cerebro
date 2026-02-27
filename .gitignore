@@ -1,0 +1,29 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+*.pkl
+
+# flutter
+cerebro_app/.dart_tool/
+cerebro_app/.packages
+cerebro_app/build/
+cerebro_app/.flutter-plugins
+cerebro_app/.flutter-plugins-dependencies
+cerebro_app/pubspec.lock
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# database
+*.db
+*.sqlite3
+
+# docker
+docker-compose.override.yml
